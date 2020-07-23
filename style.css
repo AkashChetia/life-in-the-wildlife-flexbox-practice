@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+}
+
+body {
+    background: url(sources/bg1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container {
+    margin: 20px;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+h1 {
+    font-family: fantasy;
+    font-size: 3em;
+    border-right: 2px solid green;
+    border-bottom: 2px solid green;
+    box-shadow: 15px 19px 28px darkgreen;
+    width: 450px;
+    text-align: center;
+    margin: 30px;
+    color: darkgreen;
+    font-style: oblique;
+}
+
+img {
+    
+    width: 320px;
+    height:210px;
+    margin: 10px;
+    box-shadow: 10px 10px 15px #888888;    
+}
+ 
+img:hover {
+    transform: scale(1.2);
+}
+
+footer {
+    
+    height: 185px;
+    padding: 40px;
+    font-style: italic;
+    background-color: rgba(172, 255, 47, 0.603);
+    font-weight: 900;
+    font-size: 170%;
+    clip-path : polygon(0 30%, 100% 0%, 100% 100%, 0 100%);
+}
