@@ -20,10 +20,10 @@ body {
 
 h1 {
     font-family: fantasy;
-    font-size: 3em;
-    border-right: 2px solid green;
+    font-size: 4em;
+    border-right: 2px solid red;
     border-bottom: 2px solid green;
-    box-shadow: 15px 19px 28px darkgreen;
+    box-shadow: 15px 19px 28px darkblue;
     width: 450px;
     text-align: center;
     margin: 30px;
@@ -44,7 +44,7 @@ img:hover {
 }
 
 footer {
-    height: 185px;
+    height: 190px;
     padding: 40px;
     font-style: italic;
     background-color: rgba(172, 255, 47, 0.603);
