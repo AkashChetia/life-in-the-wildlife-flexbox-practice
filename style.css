@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;0,800;1,700;1,800&display=swap');
 * {
     margin: 0;
 }
@@ -19,11 +20,11 @@ body {
 }
 
 h1 {
-    font-family: fantasy;
+    font-family: 'Open Sans', sans-serif;
     font-size: 4em;
-    border-right: 2px solid red;
-    border-bottom: 2px solid green;
-    box-shadow: 15px 19px 28px darkblue;
+    border-right: 2px solid rgba(0,255,0,0.8);
+    border-bottom: 2px solid rgba(0,255,0,0.8);
+    box-shadow: 12px 12px 15px rgba(0,255,0,0.8);
     width: 450px;
     text-align: center;
     margin: 30px;
@@ -34,16 +35,17 @@ h1 {
 img {
     width: 320px;
     height:210px;
-    margin: 10px;
+    margin: 30px;
     box-shadow: 10px 10px 15px #888888;    
-    transition: all 1s;
+    transition: all 0.6s;
 }
  
 img:hover {
-    transform: scale(1.2);
+    transform: scale(1.15);
 }
 
 footer {
+    font-family: 'Open Sans', sans-serif;
     height: 190px;
     padding: 40px;
     font-style: italic;
