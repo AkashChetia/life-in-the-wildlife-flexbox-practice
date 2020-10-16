@@ -35,13 +35,13 @@ h1 {
 img {
     width: 320px;
     height:210px;
-    margin: 10px;
+    margin: 30px;
     box-shadow: 10px 10px 15px #888888;    
-    transition: all 1s;
+    transition: all 0.6s;
 }
  
 img:hover {
-    transform: scale(1.2);
+    transform: scale(1.15);
 }
 
 footer {
