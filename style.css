@@ -21,9 +21,9 @@ body {
 h1 {
     font-family: fantasy;
     font-size: 4em;
-    border-right: 2px solid red;
-    border-bottom: 2px solid green;
-    box-shadow: 15px 19px 28px darkblue;
+    border-right: 2px solid rgba(0,255,0,0.8);
+    border-bottom: 2px solid rgba(0,255,0,0.8);
+    box-shadow: 12px 12px 15px rgba(0,255,0,0.8);
     width: 450px;
     text-align: center;
     margin: 30px;
