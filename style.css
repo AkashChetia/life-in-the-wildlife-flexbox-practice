@@ -22,12 +22,12 @@ body {
 h1 {
     font-family: 'Open Sans', sans-serif;
     font-size: 4em;
-    border-right: 2px solid rgba(0,255,0,0.8);
-    border-bottom: 2px solid rgba(0,255,0,0.8);
+    border: 2px solid rgba(0,255,0,0.8);
+    /* border-bottom: 2px solid rgba(0,255,0,0.8); */
     box-shadow: 12px 12px 15px rgba(0,255,0,0.8);
     width: 450px;
     text-align: center;
-    margin: 30px;
+    margin: 0px auto;
     color: darkgreen;
     font-style: oblique;
 }
